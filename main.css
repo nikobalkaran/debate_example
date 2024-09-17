@@ -1,13 +1,20 @@
 * { 
-	font-family: Arial, 
-	"Bush Script MT", 
+	font-family: Georgia, 
+	Serif, 
 	sans-serif;
 
 }
 
 * h1 {
-	font-family: Courier New,
+	font-family: Georgia,
 	Courier,
 	monospace;
 }
 
+.red-text {
+	color: red;
+}
+
+.blue-text {
+	color: blue;
+}
