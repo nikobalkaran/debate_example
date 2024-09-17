@@ -1,14 +1,13 @@
 * { 
 	font-family: Georgia, 
 	Serif, 
-	sans-serif;
 
 }
 
 * h1 {
 	font-family: Georgia,
-	Courier,
-	monospace;
+	Serif,
+	text-transform: uppercase;
 }
 
 .red-text {
@@ -18,3 +17,13 @@
 .blue-text {
 	color: blue;
 }
+
+* footer {
+	color: gray;
+	font-style: italic;
+}
+
+* figcaption {
+	color: gray;
+}
+
