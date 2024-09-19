@@ -1,15 +1,19 @@
 /* Astericks set the rules for everything. Only need to be used once. */
 
 * { 
-	font-family: Georgia, 
+	font-family: "Protest Guerrilla", 
+	sans-serif;
+	Georgia, 
 	Serif, 
 
 }
 
 h1 {
-	font-family: Georgia,
+	font-family:
+	Georgia,
 	Serif,
 	text-transform: uppercase;
+	text-align: center;
 }
 
 /* red-text is class. */
@@ -22,15 +26,32 @@ h1 {
 	color: blue;
 }
 
+/* h1, h6 {
+	
+} */
+
 h6 {
 	color: gray;
 	font-style: italic;
+	text-align: center;
 }
 
 
 /* Sets the maximum space for image and captions. */
 figure {
 	max-width: 600px;
+	margin: auto;
+}
+
+div.text {
+	margin: auto;
+	max-width: 800px;
+	background-color: white;
+	padding: 10px;
+	margin-top: 10px;
+
+
+
 }
 
 /* Allows image to take up full space of above. */
@@ -44,3 +65,7 @@ figcaption {
 	color: gray;
 }
 
+/* Make sure background is legible. */
+body {
+	background-color: whitesmoke;
+}
