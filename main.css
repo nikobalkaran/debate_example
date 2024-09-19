@@ -1,14 +1,18 @@
+/* Astericks set the rules for everything. Only need to be used once. */
+
 * { 
 	font-family: Georgia, 
 	Serif, 
 
 }
 
-* h1 {
+h1 {
 	font-family: Georgia,
 	Serif,
 	text-transform: uppercase;
 }
+
+/* red-text is class. */
 
 .red-text {
 	color: red;
@@ -18,12 +22,25 @@
 	color: blue;
 }
 
-* footer {
+h6 {
 	color: gray;
 	font-style: italic;
 }
 
-* figcaption {
+
+/* Sets the maximum space for image and captions. */
+figure {
+	max-width: 600px;
+}
+
+/* Allows image to take up full space of above. */
+
+img{
+	max-width: 100%;
+}
+/* Turns the figcaption gray. */
+
+figcaption {
 	color: gray;
 }
 
